@@ -1,0 +1,214 @@
+\documentclass{jarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{here}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{url}
+\usepackage{array}    % 列の設定
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage[utf8]{inputenc}
+\usepackage{subcaption}
+\newcommand{\ita}{\textit}
+\newcommand{\ko}{\rm{k$\Omega$}}
+\newcommand{\om}{\rm$\Omega$}
+\newcommand{\nf}{\rm{nF}}
+\title{}
+\date{}
+\begin{document}\maketitle
+
+
+
+
+\section{実験内容}
+以下に今回用いた回路を示す。ただし、$
+r = 1\,\text{k}\Omega, R = 100\,\text{M}\Omega, C = 0.22\,\mu\text{F}
+$
+とした。
+\captionsetup[subfigure]{labelformat=empty}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{zu1.png}
+        \caption{図(A)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.53\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{zu2.png}
+        \caption{図(B)}
+    \end{subfigure}
+\end{figure}
+
+\subsection{実験１}
+図(A)の回路について、入力端子0-0'に振幅1\,Vの正弦波電圧を印加し、
+周波数を$
+f=100\,\mathrm{Hz}, 1\,\mathrm{kHz}, 10\,\mathrm{kHz}$
+として解析を行った。
+
+各周波数について、出力端子1-1'および2-2'の電圧波形を観測た。
+また、各出力波形について理論値との比較を行った。
+以下にLTspiceにより作成した各周波数に対する回路図を示す。
+\setcounter{figure}{0}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{kairozu2-1_100Hz.png}
+    \caption{$f=100\,\mathrm{Hz}$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.28]{kairozu2-1_1kHz.png}
+    \caption{$f=1\,\mathrm{kHz}$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{kairozu2-1_100Hz.png}
+    \caption{$f=10\,\mathrm{kHz}$}
+\end{figure}
+
+\subsection{実験2}
+
+図(B)の回路について、実験1と同じ条件で
+入力端子0-0'に正弦波電圧を印加し、周波数$
+f=100\,\mathrm{Hz}, 1\,\mathrm{kHz}, 10\,\mathrm{kHz}$に対する
+出力端子3-3'の応答波形を観測した。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{kairozu2-2_100Hz.png}
+    \caption{$f=100\,\mathrm{Hz}$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{kairozu2-2_1kHz.png}
+    \caption{$f=1\,\mathrm{kHz}$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{kairozu2-2_10kHz.png}
+    \caption{$f=10\,\mathrm{kHz}$}
+\end{figure}
+
+
+\subsection{実験3}
+
+図(A)について周波数解析を行い、
+振幅特性および位相特性を求めた。
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{kairozuac2-3.png}
+    \caption{$f=10\,\mathrm{kHz}$}
+\end{figure}
+\subsection{実験4}
+
+図(B)について周波数解析を行い、
+振幅特性および位相特性を求めた。
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{kairozuac2-4.png}
+    \caption{$f=10\,\mathrm{kHz}$}
+\end{figure}
+\subsection{実験5}
+図(B)について、ノッチ周波数が
+$
+9\,\mathrm{kHz}
+$
+となるようにキャパシタンス $C$ の値を理論式より求めた。
+
+求めた値を回路に適用して再度交流解析を行い、
+振幅特性および位相特性を観測し、
+ノッチ周波数が所望の値となることを確認した。
+
+\section{結果}
+\subsection{実験1}
+各周波数に入出力波形を以下に示す。
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{sim2-1.png}
+    \caption{$f=100\,\mathrm{Hz}$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{sim2-2.png}
+    \caption{$f=1\,\mathrm{kHz}$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{sim2-3.png}
+    \caption{$f=10\,\mathrm{kHz}$}
+\end{figure}
+
+\subsection{実験2}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{sim2-4.png}
+    \caption{$f=100\,\mathrm{Hz}$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{sim2-5.png}
+    \caption{$f=1\,\mathrm{kHz}$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{sim2-6.png}
+    \caption{$f=10\,\mathrm{kHz}$}
+\end{figure}
+
+\subsection{実験3}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{ac1-1.png}
+    \caption{端子1-1'}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{ac2-2.png}
+    \caption{端子2-2'}
+\end{figure}
+
+
+\subsection{実験4}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{ac2-4.png}
+    \caption{端子3-3'}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
