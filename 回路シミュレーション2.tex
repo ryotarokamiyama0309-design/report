@@ -187,10 +187,114 @@ $
 \end{figure}
 
 
+\subsection{実験5}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{ac2-4.png}
+    \caption{端子3-3'}
+\end{figure}
 
 
+\section{考察}
+\subsection{実験1}
 
+\section*{理論値の導出}
 
+2端子対回路において、入力電圧 $V_{in}$、出力電圧 $V_{out}$、入力電流 $I_{in}$、出力電流 $I_{out}$ の関係は、インピーダンス行列 $[Z]$ を用いて次のように定義される。
+\begin{equation}
+\begin{bmatrix} V_{in} \\ V_{out} \end{bmatrix} = \begin{bmatrix} Z_{11} & Z_{12} \\ Z_{21} & Z_{22} \end{bmatrix} \begin{bmatrix} I_{in} \\ I_{out} \end{bmatrix}
+\end{equation}
+本回路において、負荷抵抗 $R$ は回路内部の抵抗 $r$ に対して十分に大きい（$R \gg r$）ため、出力端は開放（$I_{out} = 0$）とみなすことができる。このとき、伝達関数は次式で与えられる。
+\begin{equation}
+\frac{V_{out}}{V_{in}} = \frac{Z_{21}}{Z_{11}}
+\end{equation}
+図1(A)における端子1-1'の出力電圧を $V_2'$、端子2-2'の出力電圧を $V_2''$ と定義する。
+
+上部回路（端子1-1'）のインピーダンス行列 $Z'$ は、直列要素 $r$ と並列要素 $2C$ より次のように表される。
+\begin{equation}
+Z' = \begin{bmatrix} r + \frac{1}{j\omega 2C} & \frac{1}{j\omega 2C} \\ \frac{1}{j\omega 2C} & r + \frac{1}{j\omega 2C} \end{bmatrix}
+\end{equation}
+したがって、出力電圧 $V_2'$ は以下のようになる。
+\begin{equation}
+V_2' = \frac{\frac{1}{j\omega 2C}}{r + \frac{1}{j\omega 2C}} V_{in} = \frac{1}{1 + j\omega 2Cr} V_{in}
+\end{equation}
+
+同様に、下部回路（端子2-2'）のインピーダンス行列 $Z''$ は、直列要素 $0.5C$ と並列要素 $r$ より次のように表される。
+\begin{equation}
+Z'' = \begin{bmatrix} r + \frac{2}{j\omega C} & r \\ r & r + \frac{2}{j\omega C} \end{bmatrix}
+\end{equation}
+したがって、出力電圧 $V_2''$ は以下のようになる。
+\begin{equation}
+V_2'' = \frac{r}{r + \frac{2}{j\omega C}} V_{in} = \frac{j\omega Cr}{2 + j\omega Cr} V_{in}
+\end{equation}
+
+与えられた定数 $r = 1\,\text{k}\Omega$、$C = 0.22\,\mu\text{F}$ を用いると、$Cr = 2.2 \times 10^{-4}$ であり、各理論式は以下の通りとなる。
+\begin{equation}
+V_2' = \frac{1}{1 + j\omega (4.4 \times 10^{-4})} V_{in}
+\end{equation}
+\begin{equation}
+V_2'' = \frac{j\omega (2.2 \times 10^{-4})}{2 + j\omega (2.2 \times 10^{-4})} V_{in}
+\end{equation}
+\subsection*{各周波数における出力波形の導出}
+
+入力電圧を $v_{in}(t) = \sin(2\pi f t)$ [V] とし、各周波数における出力波形 $v_{2}(t) = A \sin(2\pi f t + \phi)$ を求める。ここで、振幅 $A$ および位相 $\phi$ は各伝達関数 $H(j\omega)$ より次のように算出される。
+\begin{equation}
+A = |H(j\omega)|, \quad \phi = \arg(H(j\omega))
+\end{equation}
+
+端子1-1'の伝達関数 $H_1(j\omega) = \frac{1}{1 + j\omega T_1}$ （ただし $T_1 = 4.4 \times 10^{-4}$）について、
+\begin{equation}
+|H_1(j\omega)| = \frac{1}{\sqrt{1 + (\omega T_1)^2}}, \quad \phi_1 = -\tan^{-1}(\omega T_1)
+\end{equation}
+を用いて各周波数の値を求めると、出力波形 $v_{1-1'}(t)$ は以下の通りとなる。
+
+\begin{equation}
+v_{1-1'} = \begin{cases} 
+0.96384 \sin(200\pi t - 0.26972) & (f = 100\,\text{Hz}) \\
+0.34015 \sin(2000\pi t - 1.2237) & (f = 1000\,\text{Hz}) \\
+0.036148 \sin(20000\pi t - 1.5346) & (f = 10000\,\text{Hz})
+\end{cases}
+\end{equation}
+
+同様に、端子2-2'の伝達関数 $H_2(j\omega) = \frac{j\omega T_2}{2 + j\omega T_2}$ （ただし $T_2 = 2.2 \times 10^{-4}$）について、
+\begin{equation}
+|H_2(j\omega)| = \frac{\omega T_2}{\sqrt{2^2 + (\omega T_2)^2}}, \quad \phi_2 = \frac{\pi}{2} - \tan^{-1}\left(\frac{\omega T_2}{2}\right)
+\end{equation}
+を用いて算出すると、出力波形 $v_{2-2'}(t)$ は以下の通りとなる。
+
+\begin{equation}
+v_{2-2'} = \begin{cases} 
+0.068867 \sin(200\pi t + 1.5019) & (f = 100\,\text{Hz}) \\
+0.56788 \sin(2000\pi t + 0.96668) & (f = 1000\,\text{Hz}) \\
+0.98982 \sin(20000\pi t + 0.14418) & (f = 10000\,\text{Hz})
+\end{cases}
+\end{equation}
+
+\section*{回路(B)の理論値の導出}
+
+回路(B)は、回路(A)における2つのT型回路を並列に接続した構成（双T型回路）である。全体の伝達関数 $H_B(j\omega)$ は、各回路のアドミッタンス行列の和 $\mathbf{Y} = \mathbf{Y'} + \mathbf{Y''}$ を用いて導出される。出力端開放の条件において、伝達関数は次式で与えられる。
+\begin{equation}
+H_B(j\omega) = \frac{V_{out}}{V_{in}} = -\frac{y'_{21} + y''_{21}}{y'_{22} + y''_{22}}
+\end{equation}
+
+与えられた回路定数に基づき、時定数 $T = Cr = 2.2 \times 10^{-4}$ を用いて整理すると、伝達関数は以下の通りとなる。
+\begin{equation}
+H_B(j\omega) = \frac{1 - \omega^2 T^2}{1 - \omega^2 T^2 + j4\omega T}
+\end{equation}
+
+この回路は、$\omega_0 = 1/T$ すなわち $f_0 = \frac{1}{2\pi Cr} \approx 723.4\,\text{Hz}$ において分子が零となり、出力電圧が最小となるノッチフィルタの特性を持つ。
+
+\subsection*{各周波数における出力波形 $v_B(t)$}
+端子3-3'における各周波数の理論値を、振幅 $A = |H_B(j\omega)|$ および位相差 $\phi = \arg(H_B(j\omega))$ より算出する。
+
+\begin{equation}
+v_{B} = \begin{cases} 
+0.9255 \sin(200\pi t - 0.2224) & (f = 100\,\text{Hz}) \\
+0.3478 \sin(2000\pi t + 1.2155) & (f = 1000\,\text{Hz}) \\
+0.9984 \sin(20000\pi t + 0.0564) & (f = 10000\,\text{Hz})
+\end{cases}
+\end{equation}
 
 
 
