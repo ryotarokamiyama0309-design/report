@@ -22,7 +22,6 @@
 
 
 
-\section{実験内容}
 以下に今回用いた回路を示す。ただし、$
 r = 1\,\text{k}\Omega, R = 100\,\text{M}\Omega, C = 0.22\,\mu\text{F}
 $
@@ -45,13 +44,14 @@ $
     \end{subfigure}
 \end{figure}
 
-\subsection{実験１}
-図(A)の回路について、入力端子0-0'に振幅1\,Vの正弦波電圧を印加し、
+\section{実験１}
+\subsection{実験内容}
+図(A)について、入力端子0-0'に振幅1\,Vの正弦波電圧を印加し、
 周波数を$
 f=100\,\mathrm{Hz}, 1\,\mathrm{kHz}, 10\,\mathrm{kHz}$
 として解析を行った。
 
-各周波数について、出力端子1-1'および2-2'の電圧波形を観測た。
+各周波数について、出力端子1-1'および2-2'の電圧波形を観測した。
 また、各出力波形について理論値との比較を行った。
 以下にLTspiceにより作成した各周波数に対する回路図を示す。
 \setcounter{figure}{0}
@@ -68,68 +68,12 @@ f=100\,\mathrm{Hz}, 1\,\mathrm{kHz}, 10\,\mathrm{kHz}$
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.25]{kairozu2-1_100Hz.png}
+    \includegraphics[scale=0.25]{kairozu2-1_10kHz.png}
     \caption{$f=10\,\mathrm{kHz}$}
 \end{figure}
 
-\subsection{実験2}
-
-図(B)の回路について、実験1と同じ条件で
-入力端子0-0'に正弦波電圧を印加し、周波数$
-f=100\,\mathrm{Hz}, 1\,\mathrm{kHz}, 10\,\mathrm{kHz}$に対する
-出力端子3-3'の応答波形を観測した。以下にLTspiceにより作成した各周波数に対する回路図を示す。
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.25]{kairozu2-2_100Hz.png}
-    \caption{$f=100\,\mathrm{Hz}$}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.25]{kairozu2-2_1kHz.png}
-    \caption{$f=1\,\mathrm{kHz}$}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.25]{kairozu2-2_10kHz.png}
-    \caption{$f=10\,\mathrm{kHz}$}
-\end{figure}
-
-
-\subsection{実験3}
-
-図(A)について周波数解析を行い、
-振幅特性および位相特性を求めた。
-以下にLTspiceにより作成した回路図を示す。
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.25]{kairozuac2-3.png}
-    \caption{$f=10\,\mathrm{kHz}$}
-\end{figure}
-\subsection{実験4}
-
-図(B)について周波数解析を行い、
-振幅特性および位相特性を求めた。
-以下にLTspiceにより作成した回路図を示す。
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.25]{kairozuac2-4.png}
-    \caption{$f=10\,\mathrm{kHz}$}
-\end{figure}
-\subsection{実験5}
-図(B)について、ノッチ周波数が
-$
-9\,\mathrm{kHz}
-$
-となるようにキャパシタンス $C$ の値を理論式より求めた。
-
-求めた値を回路に適用して再度交流解析を行い、
-振幅特性および位相特性を観測し、
-ノッチ周波数が所望の値となることを確認した。
-
-\section{結果}
-\subsection{実験1}
-各周波数に入出力波形を以下に示す。
+\subsection{結果}
+各周波数に対する入出力波形を以下に示す。
 ただし波形の線の色は、黄色を入力波形、青色を出力端子1-1'の波形、赤色を出力端子2-2'の波形とする。
 \begin{figure}[H]
     \centering
@@ -146,61 +90,7 @@ $
     \includegraphics[scale=0.25]{sim2-3.png}
     \caption{$f=10\,\mathrm{kHz}$}
 \end{figure}
-
-\subsection{実験2}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.25]{sim2-4.png}
-    \caption{$f=100\,\mathrm{Hz}$}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.25]{sim2-5.png}
-    \caption{$f=1\,\mathrm{kHz}$}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.25]{sim2-6.png}
-    \caption{$f=10\,\mathrm{kHz}$}
-\end{figure}
-
-\subsection{実験3}
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.25]{ac1-1.png}
-    \caption{端子1-1'}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.25]{ac2-2.png}
-    \caption{端子2-2'}
-\end{figure}
-
-
-\subsection{実験4}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.25]{ac2-4.png}
-    \caption{端子3-3'}
-\end{figure}
-
-
-\subsection{実験5}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.25]{ac2-4.png}
-    \caption{端子3-3'}
-\end{figure}
-
-
-\section{考察}
-\subsection{実験1}
-
-\section*{理論値の導出}
-
+\subsection{考察}
 2端子対回路において、入力電圧 $V_{in}$、出力電圧 $V_{out}$、入力電流 $I_{in}$、出力電流 $I_{out}$ の関係は、インピーダンス行列 $[Z]$ を用いて次のように定義される。
 \begin{equation}
 \begin{bmatrix} V_{in} \\ V_{out} \end{bmatrix} = \begin{bmatrix} Z_{11} & Z_{12} \\ Z_{21} & Z_{22} \end{bmatrix} \begin{bmatrix} I_{in} \\ I_{out} \end{bmatrix}
@@ -209,7 +99,7 @@ $
 \begin{equation}
 \frac{V_{out}}{V_{in}} = \frac{Z_{21}}{Z_{11}}
 \end{equation}
-図1(A)における端子1-1'の出力電圧を $V_2'$、端子2-2'の出力電圧を $V_2''$ と定義する。
+図(A)における端子1-1'の出力電圧を $V_2'$、端子2-2'の出力電圧を $V_2''$ と定義する。
 
 上部回路（端子1-1'）のインピーダンス行列 $Z'$ は、直列要素 $r$ と並列要素 $2C$ より次のように表される。
 \begin{equation}
@@ -236,9 +126,8 @@ V_2' = \frac{1}{1 + j\omega (4.4 \times 10^{-4})} V_{in}
 \begin{equation}
 V_2'' = \frac{j\omega (2.2 \times 10^{-4})}{2 + j\omega (2.2 \times 10^{-4})} V_{in}
 \end{equation}
-\subsection*{各周波数における出力波形の導出}
 
-入力電圧を $v_{in}(t) = \sin(2\pi f t)$ [V] とし、各周波数における出力波形 $v_{2}(t) = A \sin(2\pi f t + \phi)$ を求める。ここで、振幅 $A$ および位相 $\phi$ は各伝達関数 $H(j\omega)$ より次のように算出される。
+入力電圧を $V_{in}(t) = \sin(2\pi f t)$ [V] とし、各周波数における出力波形 $V_{2}(t) = A \sin(2\pi f t + \phi)$ を求める。ここで、振幅 $A$ および位相 $\phi$ は各伝達関数 $H(j\omega)$ より次のように算出される。
 \begin{equation}
 A = |H(j\omega)|, \quad \phi = \arg(H(j\omega))
 \end{equation}
@@ -247,56 +136,928 @@ A = |H(j\omega)|, \quad \phi = \arg(H(j\omega))
 \begin{equation}
 |H_1(j\omega)| = \frac{1}{\sqrt{1 + (\omega T_1)^2}}, \quad \phi_1 = -\tan^{-1}(\omega T_1)
 \end{equation}
-を用いて各周波数の値を求めると、出力波形 $v_{1-1'}(t)$ は以下の通りとなる。
+を用いて各周波数の値を求めると、出力波形 $V_2'(t)$ は以下の通りとなる。
 
 \begin{equation}
-v_{1-1'} = \begin{cases} 
+V_2'(t) = \begin{cases} 
 0.96384 \sin(200\pi t - 0.26972) & (f = 100\,\text{Hz}) \\
-0.34015 \sin(2000\pi t - 1.2237) & (f = 1000\,\text{Hz}) \\
-0.036148 \sin(20000\pi t - 1.5346) & (f = 10000\,\text{Hz})
+0.34015 \sin(2000\pi t - 1.2237) & (f = 1\,\text{kHz}) \\
+0.036148 \sin(20000\pi t - 1.5346) & (f = 10\,\text{kHz})
 \end{cases}
 \end{equation}
 
-同様に、端子2-2'の伝達関数 $H_2(j\omega) = \frac{j\omega T_2}{2 + j\omega T_2}$ （ただし $T_2 = 2.2 \times 10^{-4}$）について、
+同様に、端子2-2'の伝達関数
+\[
+H_2(j\omega)=\frac{j\omega T_2}{2+j\omega T_2}
+\]
+（ただし $T_2=2.2\times10^{-4}$）について考える。
+
+振幅は
 \begin{equation}
-|H_2(j\omega)| = \frac{\omega T_2}{\sqrt{2^2 + (\omega T_2)^2}}, \quad \phi_2 = \frac{\pi}{2} - \tan^{-1}\left(\frac{\omega T_2}{2}\right)
+|H_2(j\omega)|
+=
+\frac{\omega T_2}
+{\sqrt{4+(\omega T_2)^2}}
 \end{equation}
-を用いて算出すると、出力波形 $v_{2-2'}(t)$ は以下の通りとなる。
+で与えられる。
+
+また位相は複素数の偏角より
+\begin{equation}
+\phi_2
+=
+\arg(j\omega T_2)
+-
+\arg(2+j\omega T_2)
+\end{equation}
+となる。
+
+ここで
+\begin{equation}
+\arg(j\omega T_2)=\frac{\pi}{2}
+\end{equation}
+
+および
+\begin{equation}
+\arg(2+j\omega T_2)
+=
+\tan^{-1}
+\left(
+\frac{\omega T_2}{2}
+\right)
+\end{equation}
+
+より
+\begin{equation}
+\phi_2
+=
+\frac{\pi}{2}
+-
+\tan^{-1}
+\left(
+\frac{\omega T_2}{2}
+\right)
+\end{equation}
+
+となる。
+
+以上を用いて算出すると，出力波形
+$V_2''(t)$ は以下の通りとなる。
 
 \begin{equation}
-v_{2-2'} = \begin{cases} 
+V_2''(t) = \begin{cases} 
 0.068867 \sin(200\pi t + 1.5019) & (f = 100\,\text{Hz}) \\
-0.56788 \sin(2000\pi t + 0.96668) & (f = 1000\,\text{Hz}) \\
-0.98982 \sin(20000\pi t + 0.14418) & (f = 10000\,\text{Hz})
-\end{cases}
-\end{equation}
-
-\section*{回路(B)の理論値の導出}
-
-回路(B)は、回路(A)における2つのT型回路を並列に接続した構成（双T型回路）である。全体の伝達関数 $H_B(j\omega)$ は、各回路のアドミッタンス行列の和 $\mathbf{Y} = \mathbf{Y'} + \mathbf{Y''}$ を用いて導出される。出力端開放の条件において、伝達関数は次式で与えられる。
-\begin{equation}
-H_B(j\omega) = \frac{V_{out}}{V_{in}} = -\frac{y'_{21} + y''_{21}}{y'_{22} + y''_{22}}
-\end{equation}
-
-与えられた回路定数に基づき、時定数 $T = Cr = 2.2 \times 10^{-4}$ を用いて整理すると、伝達関数は以下の通りとなる。
-\begin{equation}
-H_B(j\omega) = \frac{1 - \omega^2 T^2}{1 - \omega^2 T^2 + j4\omega T}
-\end{equation}
-
-この回路は、$\omega_0 = 1/T$ すなわち $f_0 = \frac{1}{2\pi Cr} \approx 723.4\,\text{Hz}$ において分子が零となり、出力電圧が最小となるノッチフィルタの特性を持つ。
-
-\subsection*{各周波数における出力波形 $v_B(t)$}
-端子3-3'における各周波数の理論値を、振幅 $A = |H_B(j\omega)|$ および位相差 $\phi = \arg(H_B(j\omega))$ より算出する。
-
-\begin{equation}
-v_{B} = \begin{cases} 
-0.9255 \sin(200\pi t - 0.2224) & (f = 100\,\text{Hz}) \\
-0.3478 \sin(2000\pi t + 1.2155) & (f = 1000\,\text{Hz}) \\
-0.9984 \sin(20000\pi t + 0.0564) & (f = 10000\,\text{Hz})
+0.56788 \sin(2000\pi t + 0.96668) & (f = 1\,\text{kHz}) \\
+0.98982 \sin(20000\pi t + 0.14418) & (f = 10\,\text{kHz})
 \end{cases}
 \end{equation}
 
 
+式(11)と式(17)に$t$を代入した理論値と測定値をまとめた表を以下に示す。
+
+\begin{table}[H]
+\centering
+\caption{端子1-1'における理論値と測定値（100 Hz）}
+\begin{tabular}{cccc}
+\toprule
+$t$ [s] & 理論値 [V] & 測定値 [V] & 相対誤差 \\
+\midrule
+0     & -0.25683 & -0.25689 & $2.3\times10^{-4}$ \\
+0.001 & 0.33827  & 0.33802  & $7.4\times10^{-4}$ \\
+0.002 & 0.80416  & 0.80369  & $5.8\times10^{-4}$ \\
+0.003 & 0.96289  & 0.96238  & $5.3\times10^{-4}$ \\
+0.004 & 0.75383  & 0.75348  & $4.6\times10^{-4}$ \\
+0.005 & 0.25683  & 0.25677  & $2.3\times10^{-4}$ \\
+0.006 & -0.33827 & -0.33801 & $7.7\times10^{-4}$ \\
+0.007 & -0.80416 & -0.80369 & $5.8\times10^{-4}$ \\
+0.008 & -0.96289 & -0.96238 & $5.3\times10^{-4}$ \\
+0.009 & -0.75383 & -0.75348 & $4.6\times10^{-4}$ \\
+0.010 & -0.25683 & -0.25677 & $2.3\times10^{-4}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\centering
+\caption{端子2-2'における理論値と測定値（100 Hz）}
+\begin{tabular}{cccc}
+\toprule
+$t$ [s] & 理論値 [V] & 測定値 [V] & 相対誤差 \\
+\midrule
+0     & 0.068786 & 0.068808 & $3.2\times10^{-4}$ \\
+0.001 & 0.058444 & 0.058429 & $2.6\times10^{-4}$ \\
+0.002 & 0.025778 & 0.025765 & $5.0\times10^{-4}$ \\
+0.003 & -0.01673 & -0.01674 & $6.0\times10^{-4}$ \\
+0.004 & -0.05285 & -0.05285 & 0 \\
+0.005 & -0.06879 & -0.06877 & $2.9\times10^{-4}$ \\
+0.006 & -0.05844 & -0.05843 & $2.6\times10^{-4}$ \\
+0.007 & -0.02578 & -0.02577 & $3.9\times10^{-4}$ \\
+0.008 & 0.016735 & 0.016740 & $3.0\times10^{-4}$ \\
+0.009 & 0.052855 & 0.052851 & $7.6\times10^{-5}$ \\
+0.010 & 0.068786 & 0.068775 & $1.6\times10^{-4}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{端子1-1'における理論値と測定値（1 kHz）}
+\begin{tabular}{cccc}
+\toprule
+$t$ [s] & 理論値 [V] & 測定値 [V] & 相対誤差 \\
+\midrule
+0      & -0.31987 & -0.31679 & $9.62\times10^{-3}$ \\
+0.0001 & -0.19077 & -0.18760 & $1.66\times10^{-2}$ \\
+0.0002 & 0.011194 & 0.013161 & $1.76\times10^{-1}$ \\
+0.0003 & 0.20888  & 0.20995  & $5.10\times10^{-3}$ \\
+0.0004 & 0.32678  & 0.32725  & $1.44\times10^{-3}$ \\
+0.0005 & 0.31987  & 0.32015  & $9.06\times10^{-4}$ \\
+0.0006 & 0.19077  & 0.19124  & $2.49\times10^{-3}$ \\
+0.0007 & -0.011194 & -0.010339 & $7.61\times10^{-2}$ \\
+0.0008 & -0.20888 & -0.20777 & $5.32\times10^{-3}$ \\
+0.0009 & -0.32678 & -0.32559 & $3.65\times10^{-3}$ \\
+0.0010 & -0.31987 & -0.31885 & $3.18\times10^{-3}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{端子2-2'における理論値と測定値（1 kHz）}
+\begin{tabular}{cccc}
+\toprule
+$t$ [s] & 理論値 [V] & 測定値 [V] & 相対誤差 \\
+\midrule
+0      & 0.46772  & 0.47056  & $6.07\times10^{-3}$ \\
+0.0001 & 0.56841  & 0.56848  & $1.31\times10^{-4}$ \\
+0.0002 & 0.45198  & 0.45197  & $2.47\times10^{-5}$ \\
+0.0003 & 0.16291  & 0.16322  & $1.88\times10^{-3}$ \\
+0.0004 & -0.18838 & -0.18793 & $2.38\times10^{-3}$ \\
+0.0005 & -0.46772 & -0.46725 & $1.01\times10^{-3}$ \\
+0.0006 & -0.56841 & -0.56807 & $5.97\times10^{-4}$ \\
+0.0007 & -0.45198 & -0.45190 & $1.69\times10^{-4}$ \\
+0.0008 & -0.16291 & -0.16318 & $1.69\times10^{-3}$ \\
+0.0009 & 0.18839  & 0.18805  & $1.76\times10^{-3}$ \\
+0.0010 & 0.46772  & 0.46747  & $5.50\times10^{-4}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{端子1-1'における理論値と測定値（10 kHz）}
+\begin{tabular}{cccc}
+\toprule
+$t$ [s] & 理論値 [V] & 測定値 [V] & 相対誤差 \\
+\midrule
+0        & -0.03612 & -0.03548 & $1.77\times10^{-2}$ \\
+0.00001  & -0.02846 & -0.02772 & $2.60\times10^{-2}$ \\
+0.00002  & -0.00992 & -0.00926 & $6.67\times10^{-2}$ \\
+0.00003  & 0.012406 & 0.01299 & $4.71\times10^{-2}$ \\
+0.00004  & 0.029993 & 0.03052 & $1.74\times10^{-2}$ \\
+0.00005  & 0.036124 & 0.03662 & $1.37\times10^{-2}$ \\
+0.00006  & 0.028457 & 0.02896 & $1.76\times10^{-2}$ \\
+0.00007  & 0.009920 & 0.01046 & $5.43\times10^{-2}$ \\
+0.00008  & -0.012406 & -0.01183 & $4.68\times10^{-2}$ \\
+0.00009  & -0.029993 & -0.02938 & $2.03\times10^{-2}$ \\
+0.00010  & -0.03612 & -0.03551 & $1.68\times10^{-2}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{端子2-2'における理論値と測定値（10 kHz）}
+\begin{tabular}{cccc}
+\toprule
+$t$ [s] & 理論値 [V] & 測定値 [V] & 相対誤差 \\
+\midrule
+0        & 0.14172  & 0.13927  & $1.73\times10^{-2}$ \\
+0.00001  & 0.69039  & 0.68664  & $5.43\times10^{-3}$ \\
+0.00002  & 0.97535  & 0.97135  & $4.10\times10^{-3}$ \\
+0.00003  & 0.88776  & 0.88470  & $3.45\times10^{-3}$ \\
+0.00004  & 0.46108  & 0.45883  & $4.88\times10^{-3}$ \\
+0.00005  & -0.14172 & -0.14299 & $8.95\times10^{-3}$ \\
+0.00006  & -0.69039 & -0.69082 & $6.18\times10^{-4}$ \\
+0.00007  & -0.97535 & -0.97535 & $5.64\times10^{-7}$ \\
+0.00008  & -0.88776 & -0.88819 & $4.86\times10^{-4}$ \\
+0.00009  & -0.46108 & -0.46188 & $1.74\times10^{-3}$ \\
+0.00010  & 0.14172  & 0.14041  & $9.22\times10^{-3}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+図(A)における各周波数の出力波形について、理論値とシミュレーション結果を比較する。
+
+まず、1-1'端子の出力について考える。伝達関数は
+\[
+H_1(j\omega)=\frac{1}{1+j\omega 2Cr}
+\]
+で与えられる。この式より、$\omega$が大きくなると分母の$j\omega 2Cr$の影響が大きくなり、$|H_1(j\omega)|$は小さくなる。実際に、周波数を100\,Hzから10\,kHzへと増加させると、出力振幅が減少していることが確認できる。
+
+次に、2-2'端子の出力について考える。伝達関数は
+\[
+H_2(j\omega)=\frac{j\omega Cr}{2+j\omega Cr}
+\]
+である。この式より、$\omega$が小さいときは分子が小さくなり出力は小さいが，$\omega$が大きくなると分母の$j\omega Cr$が支配的となり，$|H_2(j\omega)|$は1に近づく。実際に、周波数の増加に伴い出力振幅が大きくなることが確認された。
+
+また、理論値と測定値を比較すると、いずれの周波数においても波形はよく一致しており，相対誤差は最大でも$10^{-2}$程度であった。特に100\,Hzおよび1\,kHzでは誤差は$10^{-3}$程度と小さく，理論解析が妥当であることが確認できる。
+
+一方で、10\,kHzにおいては1-1'端子の出力振幅が非常に小さいため、相対誤差がやや大きくなる傾向が見られた。これは絶対誤差自体は小さいものの、理論値が小さいことによるものである。
+
+さらに、シミュレーションにおいては1周期後の値が完全には一致せず、
+わずかな差が生じている。
+この原因について過渡現象の影響を考察した。
+
+まず100\,Hzの場合について考える。1-1'端子の時定数は
+\[
+\tau_1=2Cr=4.4\times10^{-4}\,\mathrm{s}
+\]
+であり、
+\[
+5\tau_1=2.2\times10^{-3}\,\mathrm{s}
+\]
+となる。また2-2'端子の時定数は
+\[
+\tau_2=\frac{Cr}{2}=1.1\times10^{-4}\,\mathrm{s}
+\]
+であり、
+\[
+5\tau_2=5.5\times10^{-4}\,\mathrm{s}
+\]
+となる。一方、100\,Hzの周期は
+\[
+T=\frac{1}{100}=1.0\times10^{-2}\,\mathrm{s}
+\]
+であり、
+\[
+T \gg 5\tau_1,\ 5\tau_2
+\]
+が成り立つ。したがって、1周期後には過渡成分は十分に減衰していると考えられる。
+よって、100\,Hzにおける差はLTspiceの数値計算における丸め誤差などによるものと考えられる。
+
+次に1\,kHzの場合について考える。周期は
+\[
+T=1.0\times10^{-3}\,\mathrm{s}
+\]
+であり、
+\[
+T < 5\tau_1=2.2\times10^{-3}\,\mathrm{s}
+\]
+かつ
+\[
+T > 5\tau_2=5.5\times10^{-4}\,\mathrm{s}
+\]
+である。このため、1周期後の時点では特に1-1'端子において
+過渡成分が完全には消滅していない可能性があると考えられる。
+
+また10\,kHzの場合については、周期は
+\[
+T=1.0\times10^{-4}\,\mathrm{s}
+\]
+であり、
+\[
+T < 5\tau_1,\ 5\tau_2
+\]
+が成り立つ。したがって、両端子において1周期後には
+過渡成分が残っている可能性があると考えられる。
+
+そこで、1周期目以降の値についても解析を行った。
+以下にその結果を示す。
+\begin{table}[H]
+\centering
+\caption{1 kHzにおける各周期の同一位相での出力電圧}
+\begin{tabular}{ccc}
+\toprule
+時刻 $t$ [s] & $V_{1-1'}$ [V] & $V_{2-2'}$ [V] \\
+\midrule
+0      & -0.31679 & 0.47056 \\
+0.001  & -0.31885 & 0.46747 \\
+0.002  & -0.31925 & 0.46759 \\
+0.003  & -0.31930 & 0.46761 \\
+0.004  & -0.31930 & 0.46761 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{10 kHzにおける各周期の同一位相での出力電圧}
+\begin{tabular}{ccc}
+\toprule
+時刻 $t$ [s]  & $V_{1-1'}$ [V] & $V_{2-2'}$ [V] \\
+\midrule
+0        & -0.03548 & 0.13927 \\
+0.0001   & -0.03551 & 0.14041 \\
+0.0002   & -0.03563 & 0.14105 \\
+0.0003   & -0.03572 & 0.14130 \\
+0.0004   & -0.03578 & 0.14140 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+これらの表より、
+1\,kHzでは $t=0.002\,\mathrm{s}$ 以降、
+10\,kHzでは $t=0.0002\,\mathrm{s}$ 以降の値がほぼ一定となっており、
+時間の経過とともに定常状態に近づいていることが確認できた。
+
+以上より、1\,kHzおよび10\,kHzにおける1周期後の値の差は、
+LTspiceの数値計算による誤差に加えて、
+過渡成分の影響もわずかに含まれていると考えられる。
+
+\section{実験2}
+\subsection{実験内容}
+図(B)について、実験1と同じ条件で
+入力端子0-0'に正弦波電圧を印加し、周波数$
+f=100\,\mathrm{Hz}, 1\,\mathrm{kHz}, 10\,\mathrm{kHz}$に対する
+出力端子3-3'の応答波形を観測した。以下にLTspiceにより作成した各周波数に対する回路図を示す。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{kairozu2-2_100Hz.png}
+    \caption{$f=100\,\mathrm{Hz}$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{kairozu2-2_1kHz.png}
+    \caption{$f=1\,\mathrm{kHz}$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{kairozu2-2_10kHz.png}
+    \caption{$f=10\,\mathrm{kHz}$}
+\end{figure}
+\subsection{結果}
+
+各周波数に対する入出力波形を以下に示す。
+ただし、青色を入力波形、黄色を出力端子3-3'の波形とする。
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{sim2-4.png}
+    \caption{$f=100\,\mathrm{Hz}$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{sim2-5.png}
+    \caption{$f=1\,\mathrm{kHz}$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{sim2-6.png}
+    \caption{$f=10\,\mathrm{kHz}$}
+\end{figure}
+\subsection{考察}
+図(B)は2つのT型2端子対回路の並列接続とみなせる。
+抵抗2個を含む回路のアドミタンス行列を $Y_1$、
+キャパシタ2個を含む回路のアドミタンス行列を $Y_2$ とすると，
+
+\begin{equation}
+Y=Y_1+Y_2
+\end{equation}
+
+である。
+
+入力電流 $I_0$，出力電流 $I_3$、
+入力電圧 $V_0$，出力電圧 $V_3$ は
+
+\begin{equation}
+\begin{bmatrix}
+I_0 \\
+I_3
+\end{bmatrix}
+=
+\begin{bmatrix}
+Y_{11} & Y_{12} \\
+Y_{21} & Y_{22}
+\end{bmatrix}
+\begin{bmatrix}
+V_0 \\
+V_3
+\end{bmatrix}
+\end{equation}
+
+と表される。
+
+出力端は開放とみなし
+
+\begin{equation}
+I_3=0
+\end{equation}
+
+とすると，
+
+\begin{equation}
+0=Y_{21}V_0+Y_{22}V_3
+\end{equation}
+
+より
+
+\begin{equation}
+V_3
+=
+-\frac{Y_{21}}{Y_{22}}V_0
+\end{equation}
+
+したがって伝達関数は
+
+\begin{equation}
+H_B(j\omega)
+=
+\frac{V_3}{V_0}
+=
+-\frac{Y_{21}}{Y_{22}}
+\end{equation}
+
+となる。
+
+各部分回路のアドミタンス行列は
+
+\begin{equation}
+Y_1=
+\frac{1}{
+r\left(
+r+\frac1{j\omega C}
+\right)
+}
+\begin{bmatrix}
+r+\frac1{2j\omega C}
+&
+-\frac1{2j\omega C}
+\\
+-\frac1{2j\omega C}
+&
+r+\frac1{2j\omega C}
+\end{bmatrix}
+\end{equation}
+
+\begin{equation}
+Y_2=
+\frac1{
+\frac2{j\omega C}
+\left(
+\frac2{j\omega C}+2r
+\right)
+}
+\begin{bmatrix}
+r+\frac2{j\omega C}
+&
+-r
+\\
+-r
+&
+r+\frac2{j\omega C}
+\end{bmatrix}
+\end{equation}
+
+したがって
+
+\begin{equation}
+Y_{21}
+=
+-\left(
+\frac{
+\frac1{2j\omega C}
+}{
+r\left(
+r+\frac1{j\omega C}
+\right)
+}
++
+\frac{
+r
+}{
+\frac2{j\omega C}
+\left(
+\frac2{j\omega C}+2r
+\right)
+}
+\right)
+\end{equation}
+
+\begin{equation}
+Y_{22}
+=
+\frac{
+r+\frac1{2j\omega C}
+}{
+r\left(
+r+\frac1{j\omega C}
+\right)
+}
++
+\frac{
+r+\frac2{j\omega C}
+}{
+\frac2{j\omega C}
+\left(
+\frac2{j\omega C}+2r
+\right)
+}
+\end{equation}
+
+これらを代入すると
+
+\begin{equation}
+H_B(j\omega)
+=
+\frac{
+\frac1{2j\omega C}
+\cdot
+\frac2{j\omega C}
+\left(
+\frac2{j\omega C}+2r
+\right)
++
+r^2
+\left(
+r+\frac1{j\omega C}
+\right)
+}{
+\frac2{j\omega C}
+\left(
+\frac2{j\omega C}+2r
+\right)
+\left(
+r+\frac1{2j\omega C}
+\right)
++
+r
+\left(
+r+\frac1{j\omega C}
+\right)
+\left(
+r+\frac2{j\omega C}
+\right)
+}
+\end{equation}
+
+ここで
+
+
+\begin{equation}
+m=\omega Cr
+\end{equation}
+
+とおくと
+
+\begin{equation}
+H_B(j\omega)
+=
+\frac{
+(m^6-3m^4+4)
++j6(m^5-m^3-2m)
+}{
+m^6+33m^4+36m^2+4
+}
+\end{equation}
+
+そして、$r = 1\,\text{k}\Omega$、$C = 0.22\,\mu\text{F}$ を使い各周波数について，振幅
+
+\begin{equation}
+A=|H_B(j\omega)|
+\end{equation}
+
+および位相差
+
+\begin{equation}
+\phi=
+\tan^{-1}
+\left(
+\frac{
+6(m^5-m^3-2m)
+}{
+m^6-3m^4+4
+}
+\right)
+\end{equation}
+
+を求めると、端子3-3'における出力波形は次のようになる。
+
+\begin{equation}
+V_B=
+\begin{cases}
+0.92241\sin(200\pi t-0.39651)
+&(f = 100\,\text{Hz})
+\\
+0.010760\sin(2000\pi t-1.56004)
+&(f = 1\,\mathrm{kHz})
+\\
+0.91577\sin(20000\pi t+0.41338)
+&(f = 10\,\mathrm{kHz})
+\end{cases}
+\end{equation}
+
+この式に$t$を代入したときの理論値と測定値をまとめた表を以下に示す。
+
+\begin{table}[H]
+\centering
+\caption{端子3-3'における理論値と測定値（100 Hz）}
+\begin{tabular}{cccc}
+\toprule
+$t$ [s] & 理論値 [V] & 測定値 [V] & 相対誤差 \\
+\midrule
+0     & -0.35624 & -0.35631 & $2.0\times10^{-4}$ \\
+0.001 & 0.21191  & 0.21169  & $1.0\times10^{-3}$ \\
+0.002 & 0.69912  & 0.69866  & $6.6\times10^{-4}$ \\
+0.003 & 0.91929  & 0.91876  & $5.8\times10^{-4}$ \\
+0.004 & 0.78832  & 0.78793  & $5.0\times10^{-4}$ \\
+0.005 & 0.35624  & 0.35614  & $2.8\times10^{-4}$ \\
+0.006 & -0.21191 & -0.21169 & $1.0\times10^{-3}$ \\
+0.007 & -0.69912 & -0.69866 & $6.6\times10^{-4}$ \\
+0.008 & -0.91929 & -0.91876 & $5.8\times10^{-4}$ \\
+0.009 & -0.78832 & -0.78793 & $5.0\times10^{-4}$ \\
+0.010 & -0.35624 & -0.35614 & $2.8\times10^{-4}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\caption{端子3-3'における理論値と測定値（1 kHz）}
+\begin{tabular}{cccc}
+\toprule
+$t$ [s] & 理論値 [V] & 測定値 [V] & 相対誤差 \\
+\midrule
+0      & -0.01076 & -0.00651 & $3.95\times10^{-1}$ \\
+0.0001 & -0.00864 & -0.00611 & $2.93\times10^{-1}$ \\
+0.0002 & -0.00321 & -0.00138 & $5.70\times10^{-1}$ \\
+0.0003 & 0.00344  & 0.00463  & $3.49\times10^{-1}$ \\
+0.0004 & 0.00877  & 0.00945  & $7.78\times10^{-2}$ \\
+0.0005 & 0.01076  & 0.01115  & $3.65\times10^{-2}$ \\
+0.0006 & 0.00864  & 0.00900  & $4.27\times10^{-2}$ \\
+0.0007 & 0.00322  & 0.00377  & $1.73\times10^{-1}$ \\
+0.0008 & -0.00343 & -0.00260 & $2.42\times10^{-1}$ \\
+0.0009 & -0.00877 & -0.00773 & $1.19\times10^{-1}$ \\
+0.0010 & -0.01076 & -0.00968 & $1.00\times10^{-1}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{端子3-3'における理論値と測定値（10 kHz）}
+\begin{tabular}{cccc}
+\toprule
+$t$ [s] & 理論値 [V] & 測定値 [V] & 相対誤差 \\
+\midrule
+0       & 0.36787 & 0.36352 & $1.18\times10^{-2}$ \\
+0.00001 & 0.79055 & 0.78526 & $6.7\times10^{-3}$ \\
+0.00002 & 0.91127 & 0.90699 & $4.7\times10^{-3}$ \\
+0.00003 & 0.68391 & 0.68111 & $4.1\times10^{-3}$ \\
+0.00004 & 0.19533 & 0.19398 & $6.9\times10^{-3}$ \\
+0.00005 & -0.36787 & -0.36793 & $1.6\times10^{-4}$ \\
+0.00006 & -0.79055 & -0.78980 & $9.5\times10^{-4}$ \\
+0.00007 & -0.91127 & -0.91033 & $1.0\times10^{-3}$ \\
+0.00008 & -0.68391 & -0.68373 & $2.6\times10^{-4}$ \\
+0.00009 & -0.19533 & -0.19562 & $1.5\times10^{-3}$ \\
+0.00010 & 0.36787 & 0.36715 & $2.0\times10^{-3}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+図(B)について、各周波数における
+出力電圧の理論値とシミュレーション結果を比較する。
+
+まず100\,Hzでは、理論値と測定値はほぼ一致しており、
+1周期後の値も完全に一致している。
+したがって，この場合は過渡成分はほぼ消滅しており、
+差は数値計算による誤差であると考えられる。
+
+一方、1\,kHzではノッチ周波数付近であるため出力振幅が小さく、
+相対的に過渡成分の影響が大きく現れる。
+実際に、$t=0.002\,\mathrm{s}$ 以降で値が安定しており、
+それ以前では定常状態に達していないことが確認できた。
+
+次に10\,kHzでは、初期値にわずかな差が見られるが、
+$t=0.0002\,\mathrm{s}$ 以降では値がほぼ一定となっている。
+したがって、過渡成分は存在するものの、
+短時間で減衰し、ほぼ定常状態に達していると考えられる。
+
+\section{実験3}
+\subsection{実験内容}
+図(A)ついて周波数解析を行い、
+振幅特性および位相特性を求めた。
+以下にLTspiceにより作成した回路図を示す。
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{kairozuac2-3.png}
+    \caption{$f=10\,\mathrm{kHz}$}
+\end{figure}
+\subsection{結果}
+以下にそれぞれの端子の解析結果を示す。ただし、実線は振幅、点線は位相を表す。
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{ac1-1.png}
+    \caption{端子1-1'}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{ac2-2.png}
+    \caption{端子2-2'}
+\end{figure}
+
+\subsection{考察}
+振幅特性はデシベル表示を用いて表される。
+一般に電力比は
+\[
+10\log_{10}\left(\frac{P_2}{P_1}\right)
+\]
+で定義される。
+
+ここで電力は電圧の2乗に比例するため、
+電圧比に対しては
+\[
+20\log_{10}\left(\frac{V_2}{V_1}\right)
+\]
+となる。
+
+したがって、伝達関数の絶対値を用いて
+\[
+20\log_{10}\left|H(j\omega)\right|
+\]
+を振幅特性とした。ここにそれぞれの端子の伝達関数を代入すると、
+
+\begin{align}
+20\log_{10}\left|H_1(j\omega)\right|
+= 20\log_{10}\frac{1}{\sqrt{1+(2\omega Cr)^{2}}} \notag \\
+= 20\log_{10}\frac{1}{\sqrt{1+(4\pi fCr)^{2}}}
+\end{align}
+
+\begin{align}
+20\log_{10}\left|H_2(j\omega)\right|
+&= 20\log_{10}\frac{\omega Cr}{\sqrt{4+(\omega Cr)^{2}}} \notag \\
+&= 20\log_{10}\frac{2\pi fCr}{\sqrt{4+(2\pi fCr)^{2}}} \notag \\
+&= 20\log_{10}\frac{\pi fCr}{\sqrt{1+(\pi fCr)^{2}}}
+\end{align}
+
+位相特性はそれぞれ
+\[
+-\tan^{-1}(4\pi fCr)
+\]
+\[
+\frac{\pi}{2}-\tan^{-1}(\pi fCr)
+\]
+
+以上の結果を用いて、それぞれの振幅特性と位相特性を表にまとめた。
+\begin{table}[H]
+\centering
+\caption{端子1-1'の振幅特性}
+\begin{tabular}{ccc}
+\hline
+$f$ [Hz] & 理論値 [dB] & 測定値 [dB] \\
+\hline
+1       & -0.0000331931 & -0.000206908 \\  
+5       & -0.000829751 & -0.001003531 \\
+10      & -0.003318054 & -0.003491704 \\
+50      & -0.082200208 & -0.082379912 \\
+100     & -0.319858803 & -0.320026352 \\
+500     & -4.640057136 & -4.640088521 \\
+1k    & -9.366656008 & -9.366752916 \\
+5k    & -22.83472066 & -22.83438539 \\
+10k   & -28.83832942 & -28.83841639 \\
+50k   & -42.81227827 & -42.81193582 \\
+100k  & -48.83270772 & -48.83279458 \\
+500k  & -62.81205326 & -62.81171074 \\
+1M & -68.83265147 & -68.83273832 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{端子1-1'の位相特性}
+\begin{tabular}{ccc}
+\hline
+$f$ [Hz] & 理論値 [deg] & 測定値 [deg] \\
+\hline
+1       & -0.158400 & -0.158398 \\
+5       & -0.791950 & -0.791942 \\
+10      & -1.58360 & -1.583581 \\
+50      & -7.87013 & -7.870035 \\
+100     & -15.4540 & -15.453854 \\
+500     & -54.1168 & -54.114804 \\
+1k    & -70.1141 & -70.113960 \\
+5k    & -85.8623 & -85.861800 \\
+10k   & -87.9284 & -87.928404 \\
+50k   & -89.5855 & -89.585466 \\
+100k  & -89.7928 & -89.792751 \\
+500k  & -89.9586 & -89.958546 \\
+1M & -89.9793 & -89.979275 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{端子2-2'の振幅特性}
+\begin{tabular}{ccc}
+\hline
+$f$ [Hz] & 理論値 [dB] & 測定値 [dB] \\
+\hline
+1       & -63.2086 & -63.20954691 \\
+5       & -49.2292 & -49.22932395 \\
+10      & -43.2088 & -43.20885233 \\
+50      & -29.2343 & -29.23442031 \\
+100     & -23.2292 & -23.22933184 \\
+500     & -9.71909 & -9.719245586 \\
+1k    & -4.90438 & -4.904437684 \\
+5k    & -0.34924 & -0.349305396 \\
+10k   & -0.08998 & -0.089979002 \\
+50k   & -0.00364 & -0.003635906 \\
+100k  & -0.00091 & -0.000909081 \\
+500k  & $-3.63662\times 10^{-5}$ & $-3.63741\times 10^{-5}$ \\
+1M & $-9.09157\times 10^{-6}$ & $-9.09175\times 10^{-6}$ \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{端子2-2'の位相特性}
+\begin{tabular}{ccc}
+\hline
+$f$ [Hz] & 理論値 [deg] & 測定値 [deg] \\
+\hline
+1       & 89.9604  & 90.789326 \\
+5       & 89.8020   & 89.967789 \\
+10      & 89.6040 & 89.686909 \\
+50      & 88.0208 & 88.037291 \\
+100     & 86.0463 & 86.054617 \\
+500     & 70.9361 & 70.937275 \\
+1k    & 55.3497  & 55.350793 \\
+5k    & 16.1390   & 16.139951 \\
+10k   & 8.23278 & 8.232948 \\
+50k   & 1.65752  & 1.657635 \\
+100k  & 0.828934 & 0.828950 \\
+500k  & 0.165798 & 0.165809 \\
+1M & 0.0828991 & 0.082901 \\
+\hline
+\end{tabular}
+\end{table}
+以上の結果より、端子1-1'および端子2-2'の振幅特性および位相特性について、
+理論値と測定値は全体としてよく一致していることが確認できた。
+
+まず端子1-1'について、振幅特性は周波数の増加とともに減少しており、
+低周波ではほぼ $0\,\mathrm{dB}$ に近く、高周波では大きく減衰している。
+また位相特性は周波数の増加に伴って負の方向に変化し、
+最終的に $-90^\circ$ に近づいていることが確認できる。
+
+次に端子2-2'については、低周波では振幅が非常に小さく、
+周波数の増加とともに振幅が増加し、高周波では $0\,\mathrm{dB}$ に近づいている。
+位相特性は低周波では $90^\circ$ 付近の値をとり、
+周波数の増加とともに $0^\circ$ に近づいていることが確認できる。
+
+以上より、端子1-1'と端子2-2'では周波数に対する応答が互いに異なっており、
+一方が減衰する領域において他方は増加するという関係にあることが分かる。
+
+また、全ての周波数において理論値と測定値は非常によく一致しており、
+わずかな差はLTspiceにおける数値計算や読み取り誤差によるものであると考えられる。
+
+
+\section{実験4}
+\subsection{実験内容}
+図(B)について周波数解析を行い、
+振幅特性および位相特性を求めた。
+以下にLTspiceにより作成した回路図を示す。
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{kairozuac2-4.png}
+    \caption{$f=10\,\mathrm{kHz}$}
+\end{figure}
+
+\subsection{結果}
+以下に端子3-3'の解析結果を示す。ただし、実線は振幅、点線は位相を表す。
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{ac2-4.png}
+    \caption{端子3-3'}
+\end{figure}
+
+
+
+\subsection{考察}
+
+\section{実験5}
+\subsection{実験内容}
+図(B)について、ノッチ周波数が
+$
+9\,\mathrm{kHz}
+$
+となるようにキャパシタンス $C$ の値を理論式より求めた。
+
+求めた値を回路に適用して再度交流解析を行い、
+振幅特性および位相特性を観測し、
+ノッチ周波数が所望の値となることを確認した。
+
+\subsection{結果}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{ac2-4.png}
+    \caption{端子3-3'}
+\end{figure}
+
+
+\subsection{考察}
 
 
 

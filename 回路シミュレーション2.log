@@ -1,39 +1,36 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023/Debian) (preloaded format=uplatex 2026.4.27)  28 APR 2026 06:27
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.2)  30 APR 2026 12:18
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**回路シミュレーション2.tex
-(./回路シミュレーション2.tex
-pLaTeX2e <2023-02-14u04>+1, based on
+**c:/Users/81807/report/蝗櫁^^b7^^af繧^^b7繝溘Η繝^^ac繝^^bc繧^^b7繝^^a7繝^^b32
+(c:/Users/81807/report/蝗櫁^^b7^^af繧^^b7繝溘Η繝^^ac繝^^bc繧^^b7繝^^a7繝^^b32.tex
+pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
-(/usr/share/texlive/texmf-dist/tex/latex/jlreq/jlreq.cls
-Document Class: jlreq 2023/06/19 jlreq
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-01-22 L3 programming layer (loader) 
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2024-01-04 L3 backend support: dvips
+L3 programming layer <2024-03-14>
+(c:/texlive/2024/texmf-dist/tex/latex/jlreq/jlreq.cls
+Document Class: jlreq 2024/02/16 jlreq
+(c:/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-03-14 L3 programming layer (loader) 
+ (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+File: l3backend-dvips.def 2024-03-14 L3 backend support: dvips
 \l__pdf_internal_box=\box68
-\g__pdf_backend_object_int=\count186
+\g__pdf_backend_object_int=\count187
 \l__pdf_backend_content_box=\box69
 \l__pdf_backend_model_box=\box70
-\g__pdf_backend_annotation_int=\count187
-\g__pdf_backend_link_int=\count188
-\g__pdf_backend_link_sf_int=\count189
+\g__pdf_backend_annotation_int=\count188
+\g__pdf_backend_link_int=\count189
+\g__pdf_backend_link_sf_int=\count190
 ))
-Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
-)
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: l3keys2e 2024-03-14 LaTeX2e option processing using LaTeX3 keys
+) (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count190
-)
-(/usr/share/texlive/texmf-dist/tex/latex/jlreq/jlreq-helpers.sty
-Package: jlreq-helpers 2023/06/19 jlreq-helpers
-\jlreq@tempcnta=\count191
-\jlreq@tempcntb=\count192
-\jlreq@tempcntc=\count193
+\etb@tempcnta=\count191
+) (c:/texlive/2024/texmf-dist/tex/latex/jlreq/jlreq-helpers.sty
+Package: jlreq-helpers 2024/02/13 jlreq-helpers
+\jlreq@tempcnta=\count192
+\jlreq@tempcntb=\count193
+\jlreq@tempcntc=\count194
 \jlreq@tempdima=\dimen156
 \jlreq@tempdimb=\dimen157
 \jlreq@tempdimc=\dimen158
@@ -46,24 +43,20 @@ Package: jlreq-helpers 2023/06/19 jlreq-helpers
 \jlreq@resultdimen=\dimen159
 \jlreq@resultskip=\skip51
 \jlreq@resultbox=\box74
-\jlreq@resultcnt=\count194
-\jlreq@reference@count=\count195
-\jlreq@currentpage=\count196
+\jlreq@resultcnt=\count195
+\jlreq@reference@count=\count196
+\jlreq@currentpage=\count197
 )
-\l__jlreq_tmpa_int=\count197
+\l__jlreq_tmpa_int=\count198
 \l__jlreq_tmpa_dim=\dimen160
 \l_jlreq_tmpa_skip=\skip52
 \l_jlreq_tmpa_box=\box75
 \l_jlreq_tmpb_box=\box76
 \l_jlreq_tmpc_box=\box77
-
-jlreq guessed engine: uplatex
-(/usr/share/texlive/texmf-dist/tex/latex/everyhook/everyhook.sty
-(/usr/share/texlive/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+ jlreq guessed engine: platex (c:/texlive/2024/texmf-dist/tex/latex/everyhook/everyhook.sty (c:/texlive/2024/texmf-dist/tex/latex/svn-prov/svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
-Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX every
-X primitives.
+Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX everyX primitives.
 \everypar=\toks18
 \frozen@everymath=\toks19
 \frozen@everydisplay=\toks20
@@ -73,11 +66,10 @@ X primitives.
 )
 \jlreq@current@linewidth=\dimen161
 \jlreq@rest@linewidth=\dimen162
-\jlreq@lastnodechar=\count198
+\jlreq@lastnodechar=\count199
 \jlreq@fontsize=\dimen163
 \jlreq@jafontsize=\dimen164
-
-(/usr/share/texmf/tex/latex/lm/lmodern.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -114,115 +106,100 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 )
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 1140.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1208.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1208.
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 1123.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 1191.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 1191.
 \jlreq@baselineskip=\dimen165
 \jlreq@omotekeiwidth=\dimen166
 \jlreq@chuubusokeiwidth=\dimen167
 \jlreq@urakeiwidth=\dimen168
 \jlreq@sidenote@length=\dimen169
 \jlreq@sidenote@sep=\dimen170
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.00003pt on input line 1395.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.00003pt on input line 1395.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.00003pt on input line 1378.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.00003pt on input line 1378.
 \jlreq@BlockHeading@start@label@box=\box78
-\jlreq@BlockHeading@spaces@current@count=\count199
-\c@part=\count266
-\c@section=\count267
-\c@subsection=\count268
-\c@subsubsection=\count269
-\c@paragraph=\count270
-\c@subparagraph=\count271
+\jlreq@BlockHeading@spaces@current@count=\count266
+\c@part=\count267
+\c@section=\count268
+\c@subsection=\count269
+\c@subsubsection=\count270
+\c@paragraph=\count271
+\c@subparagraph=\count272
 \jlreq@endnote@prepostspace=\dimen171
 \jlreq@endnote@indent=\dimen172
 \jlreq@PageStyle@box=\box79
 \abovecaptionskip=\skip53
 \belowcaptionskip=\skip54
-\c@figure=\count272
-\c@table=\count273
+\c@figure=\count273
+\c@table=\count274
 \jlreq@abstractbox=\box80
 \toclineskip=\skip55
 \@lnumwidth=\dimen173
-\jlreq@top@contents=\count274
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 6387.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 6387.
-
-(/usr/share/texlive/texmf-dist/tex/latex/jlreq/jlreq-complements.sty
+\jlreq@top@contents=\count275
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 6432.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 6432.
+ (c:/texlive/2024/texmf-dist/tex/latex/jlreq/jlreq-complements.sty
 Package: jlreq-complements 2022/11/28 jlreq-complements
-
-(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/filehook/filehook.sty
 Package: filehook 2022/10/25 v0.8b Hooks for input files
-
-(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook-2020.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/filehook/filehook-2020.sty
 Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
-))))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+)))) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks24
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: dvipdfmx.def on input line 107.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
 ))
 \Gin@req@height=\dimen174
 \Gin@req@width=\dimen175
-)
-(/usr/share/texlive/texmf-dist/tex/latex/here/here.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/here/here.sty) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count275
+\c@float@type=\count276
 \float@exts=\toks25
 \float@box=\box81
 \@float@everytoks=\toks26
 \@floatcapt=\box82
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip56
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks27
 \ex@=\dimen176
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen177
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count276
+\inf@bad=\count277
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count277
-\leftroot@=\count278
+\uproot@=\count278
+\leftroot@=\count279
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count279
-\DOTSCASE@=\count280
+\classnum@=\count280
+\DOTSCASE@=\count281
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -235,20 +212,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen178
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count281
+\macc@depth=\count282
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count282
+\c@MaxMatrixCols=\count283
 \dotsspace@=\muskip16
-\c@parentequation=\count283
-\dspbrk@lvl=\count284
+\c@parentequation=\count284
+\dspbrk@lvl=\count285
 \tag@help=\toks28
-\row@=\count285
-\column@=\count286
-\maxfields@=\count287
+\row@=\count286
+\column@=\count287
+\maxfields@=\count288
 \andhelp@=\toks29
 \eqnshift@=\dimen179
 \alignsep@=\dimen180
@@ -262,28 +239,23 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip59
-\multirow@cntb=\count288
+\multirow@cntb=\count289
 \multirow@dima=\skip60
 \bigstrutjot=\dimen185
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen186
 \ar@mcellbox=\box85
@@ -292,11 +264,9 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip61
 \backup@length=\skip62
 \ar@cellbox=\box86
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen188
 \captionmargin=\dimen189
@@ -308,37 +278,17 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen195
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
-Package caption Info: \@makecaption = \long macro:#1#2->{\@ifundefined {@curren
-vir}{\@ifundefined {@captype}{\def \jlreq@tempb {}}{\let \jlreq@tempb =\@captyp
-e }}{\let \jlreq@tempb =\@currenvir }\reset@font \small \vskip \abovecaptionski
-p \edef \jlreq@do {\unexpanded {\def \jlreq@tempa ##1}{\jlreq@jlreqsetup@withen
-v@nameuse {jlreq@@makecaption@label@format@setting}{\jlreq@tempb }}}\jlreq@do \
-setbox \jlreq@tempboxa =\hbox {\jlreq@jlreqsetup@withenv@nameuse {jlreq@@makeca
-ption@label@font@setting}{\jlreq@tempb }#1\relax }\ifdim \wd \jlreq@tempboxa =0
-pt\edef \jlreq@tempa {{\jlreq@jlreqsetup@withenv@nameuse {jlreq@@makecaption@fo
-nt@setting}{\jlreq@tempb }\unexpanded {#2}}}\else \edef \jlreq@tempa {{\jlreq@j
-lreqsetup@withenv@nameuse {jlreq@@makecaption@label@font@setting}{\jlreq@tempb 
-}\exp_not:o {\jlreq@tempa {#1}}}\unexpanded {\hskip \glueexpr }\jlreq@jlreqsetu
-p@withenv@nameuse {jlreq@@makecaption@after@label@space@setting}{\jlreq@tempb }
-\noexpand \relax {\jlreq@jlreqsetup@withenv@nameuse {jlreq@@makecaption@font@se
-tting}{\jlreq@tempb }\unexpanded {#2}}}\fi \setbox \@tempboxa =\hbox {\jlreq@te
-mpa }\ifdim \wd \@tempboxa >\hsize \relax \edef \jlreq@tempc {\jlreq@jlreqsetup
-@withenv@nameuse {jlreq@@makecaption@align@setting@large}{\jlreq@tempb }}\else 
-\global \@minipagefalse \edef \jlreq@tempc {\jlreq@jlreqsetup@withenv@nameuse {
-jlreq@@makecaption@align@setting@small}{\jlreq@tempb }}\fi \expandafter \let \e
-xpandafter \jlreq@align \jlreq@tempc \ifx c\jlreq@align \centering \fi \ifx r\j
-lreq@align \raggedleft \fi \unhbox \@tempboxa \par \vskip \belowcaptionskip } o
-n input line 1175.
+Package caption Info: \@makecaption = \long macro:#1#2->{\@ifundefined {@currenvir}{\@ifundefined {@captype}{\def \jlreq@tempb {}}{\let \jlreq@tempb =\@captype }}{\let \jlreq@tempb =\@currenvir }\reset@font \small \vskip \abovecaptionskip \edef \jlreq@do {\unexpanded {\def \jlreq@tempa ##1}{\jlreq@jlreqsetup@withenv@nameuse {jlreq@@makecaption@label@format@setting}{\jlreq@tempb }}}\jlreq@do \setbox \jlreq@tempboxa =\hbox {\jlreq@jlreqsetup@withenv@nameuse {jlreq@@makecaption@label@font@setting}{\jlreq@tempb }#1\relax }\ifdim \wd \jlreq@tempboxa =0pt\edef \jlreq@tempa {{\jlreq@jlreqsetup@withenv@nameuse {jlreq@@makecaption@font@setting}{\jlreq@tempb }\unexpanded {#2}}}\else \edef \jlreq@tempa {{\jlreq@jlreqsetup@withenv@nameuse {jlreq@@makecaption@label@font@setting}{\jlreq@tempb }\exp_not:o {\jlreq@tempa {#1}}}\unexpanded {\hskip \glueexpr }\jlreq@jlreqsetup@withenv@nameuse {jlreq@@makecaption@after@label@space@setting}{\jlreq@tempb }\noexpand \relax {\jlreq@jlreqsetup@withenv@nameuse {jlreq@@makecaption@font@setting}{\jlreq@tempb }\unexpanded {#2}}}\fi \setbox \@tempboxa =\hbox {\jlreq@tempa }\ifdim \wd \@tempboxa >\hsize \relax \edef \jlreq@tempc {\jlreq@jlreqsetup@withenv@nameuse {jlreq@@makecaption@align@setting@large}{\jlreq@tempb }}\else \global \@minipagefalse \edef \jlreq@tempc {\jlreq@jlreqsetup@withenv@nameuse {jlreq@@makecaption@align@setting@small}{\jlreq@tempb }}\fi \expandafter \let \expandafter \jlreq@align \jlreq@tempc \ifx c\jlreq@align \centering \fi \ifx r\jlreq@align \raggedleft \fi \unhbox \@tempboxa \par \vskip \belowcaptionskip } on input line 1175.
 )
 
 Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count289
-\c@continuedfloat=\count290
+\c@caption@flags=\count290
+\c@continuedfloat=\count291
 Package caption Info: float package is loaded.
-) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen196
 \lightrulewidth=\dimen197
@@ -350,34 +300,29 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen259
 \cmidrulekern=\dimen260
 \defaultaddspace=\dimen261
-\@cmidla=\count291
-\@cmidlb=\count292
+\@cmidla=\count292
+\@cmidlb=\count293
 \@aboverulesep=\dimen262
 \@belowrulesep=\dimen263
-\@thisruleclass=\count293
-\@lastruleclass=\count294
+\@thisruleclass=\count294
+\@lastruleclass=\count295
 \@thisrulewidth=\dimen264
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks33
 \inpenc@posthook=\toks34
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count295
+\c@subfigure=\count296
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count296
+\c@subtable=\count297
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-0.
-
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 20.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-(./回路シミュレーション2.aux)
-\openout1 = `回路シミュレーション2.aux'.
+) (./蝗櫁^^b7^^af繧^^b7繝溘Η繝^^ac繝^^bc繧^^b7繝^^a7繝^^b32.aux)
+\openout1 = `蝗櫁^^b7^^af繧^^b7繝溘Η繝^^ac繝^^bc繧^^b7繝^^a7繝^^b32.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
@@ -393,36 +338,30 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 20.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 20.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 17.0pt on input line 20.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 17.0pt on input line 20.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 12.0pt on input line 20.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 12.0pt on input line 20.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-0.
-
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 20.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-20.
-
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 20.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-20.
-
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 20.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -431,140 +370,126 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 20.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.0pt on input line 20.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 6.0pt on input line 20.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 20
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 20.
+ (c:/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
 LaTeX Warning: No \author given.
 
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 14.0pt on input line 26.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 14.0pt on input line 26.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 26.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 26.
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-26.
-(/usr/share/texmf/tex/latex/lm/ot1lmss.fd
-File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <14> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 26.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 26.
-LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <14> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 26.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 26.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 26.
+(Font)              <10> on input line 25.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 26.
+(Font)              <7> on input line 25.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 26.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              <5> on input line 25.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 7.0pt on input line 25.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.0pt on input line 25.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 7.0pt on input line 26.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 5.0pt on input line 26.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.0pt on input line 27.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.0pt on input line 27.
 File: zu1.png Graphic file (type bmp)
 <zu1.png>
 File: zu2.png Graphic file (type bmp)
 <zu2.png>
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 14.0pt on input line 48.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 14.0pt on input line 48.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 14.0pt on input line 48.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 14.0pt on input line 48.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 48.
+(c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <14> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 48.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 14.0pt on input line 48.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <14> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 48.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 14.0pt on input line 48.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 49.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 49.
-LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 49.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 49.
-LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 49.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 49.
 File: kairozu2-1_100Hz.png Graphic file (type bmp)
 <kairozu2-1_100Hz.png>
 File: kairozu2-1_1kHz.png Graphic file (type bmp)
 <kairozu2-1_1kHz.png>
-File: kairozu2-1_100Hz.png Graphic file (type bmp)
-<kairozu2-1_100Hz.png>
+File: kairozu2-1_10kHz.png Graphic file (type bmp)
+<kairozu2-1_10kHz.png>
  [1
 
 ]
+File: sim2-1.png Graphic file (type bmp)
+<sim2-1.png>
+File: sim2-2.png Graphic file (type bmp)
+<sim2-2.png>
+File: sim2-3.png Graphic file (type bmp)
+<sim2-3.png>
+ [2] [3] [4] [5] [6] [7] [8] [9] [10]
 File: kairozu2-2_100Hz.png Graphic file (type bmp)
 <kairozu2-2_100Hz.png>
 File: kairozu2-2_1kHz.png Graphic file (type bmp)
 <kairozu2-2_1kHz.png>
 File: kairozu2-2_10kHz.png Graphic file (type bmp)
 <kairozu2-2_10kHz.png>
- [2]
-File: kairozuac2-3.png Graphic file (type bmp)
-<kairozuac2-3.png>
-File: kairozuac2-4.png Graphic file (type bmp)
-<kairozuac2-4.png>
-File: sim2-1.png Graphic file (type bmp)
-<sim2-1.png>
- [3]
-File: sim2-2.png Graphic file (type bmp)
-<sim2-2.png>
-File: sim2-3.png Graphic file (type bmp)
-<sim2-3.png>
- [4]
 File: sim2-4.png Graphic file (type bmp)
 <sim2-4.png>
 File: sim2-5.png Graphic file (type bmp)
 <sim2-5.png>
+ [11]
 File: sim2-6.png Graphic file (type bmp)
 <sim2-6.png>
- [5]
+ [12] [13] [14] [15]
+File: kairozuac2-3.png Graphic file (type bmp)
+<kairozuac2-3.png>
+ [16]
 File: ac1-1.png Graphic file (type bmp)
 <ac1-1.png>
 File: ac2-2.png Graphic file (type bmp)
 <ac2-2.png>
+ [17] [18] [19] [20]
+File: kairozuac2-4.png Graphic file (type bmp)
+<kairozuac2-4.png>
 File: ac2-4.png Graphic file (type bmp)
 <ac2-4.png>
- [6]
+ [21]
 File: ac2-4.png Graphic file (type bmp)
 <ac2-4.png>
- [7] [8]
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 276.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 7.0pt on input line 276.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 5.0pt on input line 276.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 8.0pt on input line 289.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.0pt on input line 289.
-
-[9] [10] (./回路シミュレーション2.aux)
+ [22] [23] (./蝗櫁^^b7^^af繧^^b7繝溘Η繝^^ac繝^^bc繧^^b7繝^^a7繝^^b32.aux)
  ***********
-pLaTeX2e <2023-02-14u04>+1, based on
+pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
+L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6272 strings out of 475989
- 131973 string characters out of 5789715
- 1930820 words of memory out of 5000000
- 28310 multiletter control sequences out of 15000+600000
- 638112 words of font info for 121 fonts, out of 8000000 for 9000
- 264 hyphenation exceptions out of 8191
- 81i,9n,103p,908b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 6350 strings out of 476210
+ 134164 string characters out of 5795035
+ 1936341 words of memory out of 5000000
+ 28485 multiletter control sequences out of 15000+600000
+ 614659 words of font info for 109 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 81i,12n,103p,926b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 回路シミュレーション2.dvi (10 pages, 17064 bytes).
+Output written on 蝗櫁^^b7^^af繧^^b7繝溘Η繝^^ac繝^^bc繧^^b7繝^^a7繝^^b32.dvi (23 pages, 47332 bytes).
