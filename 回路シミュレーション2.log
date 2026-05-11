@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.2)  30 APR 2026 12:18
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.2)  30 APR 2026 22:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -473,10 +473,20 @@ File: kairozuac2-4.png Graphic file (type bmp)
 <kairozuac2-4.png>
 File: ac2-4.png Graphic file (type bmp)
 <ac2-4.png>
- [21]
-File: ac2-4.png Graphic file (type bmp)
-<ac2-4.png>
- [22] [23] (./蝗櫁^^b7^^af繧^^b7繝溘Η繝^^ac繝^^bc繧^^b7繝^^a7繝^^b32.aux)
+ [21] [22] [23] [24]
+File: kairozu2-5.png Graphic file (type bmp)
+<kairozu2-5.png>
+File: ac2-5.png Graphic file (type bmp)
+<ac2-5.png>
+ [25] [26]
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 1306.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 1306.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 1306.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [27] (./蝗櫁^^b7^^af繧^^b7繝溘Η繝^^ac繝^^bc繧^^b7繝^^a7繝^^b32.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01> patch level 1
@@ -484,12 +494,12 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6350 strings out of 476210
- 134164 string characters out of 5795035
+ 6413 strings out of 476210
+ 135437 string characters out of 5795035
  1936341 words of memory out of 5000000
- 28485 multiletter control sequences out of 15000+600000
- 614659 words of font info for 109 fonts, out of 8000000 for 9000
+ 28540 multiletter control sequences out of 15000+600000
+ 615872 words of font info for 112 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 81i,12n,103p,926b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 81i,11n,103p,926b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 蝗櫁^^b7^^af繧^^b7繝溘Η繝^^ac繝^^bc繧^^b7繝^^a7繝^^b32.dvi (23 pages, 47332 bytes).
+Output written on 蝗櫁^^b7^^af繧^^b7繝溘Η繝^^ac繝^^bc繧^^b7繝^^a7繝^^b32.dvi (27 pages, 57404 bytes).
