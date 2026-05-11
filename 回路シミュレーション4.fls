@@ -6,8 +6,8 @@ INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/euptex/uplatex.fmt
-INPUT 回路シミュレーション2.tex
-OUTPUT 回路シミュレーション2.log
+INPUT 回路シミュレーション4.tex
+OUTPUT 回路シミュレーション4.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/jlreq/jlreq.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/jlreq/jlreq.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -93,10 +93,10 @@ INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
-INPUT ./回路シミュレーション2.aux
-INPUT ./回路シミュレーション2.aux
-INPUT 回路シミュレーション2.aux
-OUTPUT 回路シミュレーション2.aux
+INPUT ./回路シミュレーション4.aux
+INPUT ./回路シミュレーション4.aux
+INPUT 回路シミュレーション4.aux
+OUTPUT 回路シミュレーション4.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreq-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreq.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr17.tfm
@@ -139,6 +139,10 @@ INPUT /usr/share/texmf/tex/latex/lm/ot1lmss.fd
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmss.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmss12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmssbx10.tfm
+INPUT ./hihuku.png
+INPUT ./hihuku.png
+INPUT ./hihuku.png
+INPUT extractbb -B cropbox -O hihuku.png
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr7.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr5.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi10.tfm
@@ -152,101 +156,180 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreq.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreq-v.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreq-v.tfm
-INPUT ./zu1.png
-INPUT ./zu1.png
-INPUT ./zu1.png
-INPUT extractbb -B cropbox -O zu1.png
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr9.tfm
-INPUT ./zu2.png
-INPUT ./zu2.png
-INPUT ./zu2.png
-INPUT extractbb -B cropbox -O zu2.png
+INPUT ./huku.png
+INPUT ./huku.png
+INPUT ./huku.png
+INPUT extractbb -B cropbox -O huku.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreqg-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreqg.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmss12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmssbx10.tfm
-INPUT ./kairozu2-1_100Hz.png
-INPUT ./kairozu2-1_100Hz.png
-INPUT ./kairozu2-1_100Hz.png
-INPUT extractbb -B cropbox -O kairozu2-1_100Hz.png
-INPUT ./kairozu2-1_1kHz.png
-INPUT ./kairozu2-1_1kHz.png
-INPUT ./kairozu2-1_1kHz.png
-INPUT extractbb -B cropbox -O kairozu2-1_1kHz.png
-INPUT ./kairozu2-1_100Hz.png
-INPUT ./kairozu2-1_100Hz.png
-INPUT ./kairozu2-1_100Hz.png
-OUTPUT 回路シミュレーション2.dvi
-INPUT ./kairozu2-2_100Hz.png
-INPUT ./kairozu2-2_100Hz.png
-INPUT ./kairozu2-2_100Hz.png
-INPUT extractbb -B cropbox -O kairozu2-2_100Hz.png
-INPUT ./kairozu2-2_1kHz.png
-INPUT ./kairozu2-2_1kHz.png
-INPUT ./kairozu2-2_1kHz.png
-INPUT extractbb -B cropbox -O kairozu2-2_1kHz.png
-INPUT ./kairozu2-2_10kHz.png
-INPUT ./kairozu2-2_10kHz.png
-INPUT ./kairozu2-2_10kHz.png
-INPUT extractbb -B cropbox -O kairozu2-2_10kHz.png
-INPUT ./kairozuac2-3.png
-INPUT ./kairozuac2-3.png
-INPUT ./kairozuac2-3.png
-INPUT extractbb -B cropbox -O kairozuac2-3.png
-INPUT ./kairozuac2-4.png
-INPUT ./kairozuac2-4.png
-INPUT ./kairozuac2-4.png
-INPUT extractbb -B cropbox -O kairozuac2-4.png
-INPUT ./sim2-1.png
-INPUT ./sim2-1.png
-INPUT ./sim2-1.png
-INPUT extractbb -B cropbox -O sim2-1.png
-INPUT ./sim2-2.png
-INPUT ./sim2-2.png
-INPUT ./sim2-2.png
-INPUT extractbb -B cropbox -O sim2-2.png
-INPUT ./sim2-3.png
-INPUT ./sim2-3.png
-INPUT ./sim2-3.png
-INPUT extractbb -B cropbox -O sim2-3.png
-INPUT ./sim2-4.png
-INPUT ./sim2-4.png
-INPUT ./sim2-4.png
-INPUT extractbb -B cropbox -O sim2-4.png
-INPUT ./sim2-5.png
-INPUT ./sim2-5.png
-INPUT ./sim2-5.png
-INPUT extractbb -B cropbox -O sim2-5.png
-INPUT ./sim2-6.png
-INPUT ./sim2-6.png
-INPUT ./sim2-6.png
-INPUT extractbb -B cropbox -O sim2-6.png
-INPUT ./ac1-1.png
-INPUT ./ac1-1.png
-INPUT ./ac1-1.png
-INPUT extractbb -B cropbox -O ac1-1.png
-INPUT ./ac2-2.png
-INPUT ./ac2-2.png
-INPUT ./ac2-2.png
-INPUT extractbb -B cropbox -O ac2-2.png
-INPUT ./ac2-4.png
-INPUT ./ac2-4.png
-INPUT ./ac2-4.png
-INPUT extractbb -B cropbox -O ac2-4.png
-INPUT ./ac2-4.png
-INPUT ./ac2-4.png
-INPUT ./ac2-4.png
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx7.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx5.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreqg-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreqg.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreqg.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreqg.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx12.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx8.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreqg.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreqg.tfm
-INPUT 回路シミュレーション2.aux
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmss10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmssbx10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreq-v.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/ujlreq-v.tfm
+INPUT ./kairozu5-11.png
+INPUT ./kairozu5-11.png
+INPUT ./kairozu5-11.png
+INPUT extractbb -B cropbox -O kairozu5-11.png
+INPUT ./kairozu5-12.png
+INPUT ./kairozu5-12.png
+INPUT ./kairozu5-12.png
+INPUT extractbb -B cropbox -O kairozu5-12.png
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr9.tfm
+OUTPUT 回路シミュレーション4.dvi
+INPUT ./kairozu5-13.png
+INPUT ./kairozu5-13.png
+INPUT ./kairozu5-13.png
+INPUT extractbb -B cropbox -O kairozu5-13.png
+INPUT ./kairozu5-21.png
+INPUT ./kairozu5-21.png
+INPUT ./kairozu5-21.png
+INPUT extractbb -B cropbox -O kairozu5-21.png
+INPUT ./kairozu5-22.png
+INPUT ./kairozu5-22.png
+INPUT ./kairozu5-22.png
+INPUT extractbb -B cropbox -O kairozu5-22.png
+INPUT ./kairozu5-23.png
+INPUT ./kairozu5-23.png
+INPUT ./kairozu5-23.png
+INPUT extractbb -B cropbox -O kairozu5-23.png
+INPUT ./sim5-11.png
+INPUT ./sim5-11.png
+INPUT ./sim5-11.png
+INPUT extractbb -B cropbox -O sim5-11.png
+INPUT ./sim5-12.png
+INPUT ./sim5-12.png
+INPUT ./sim5-12.png
+INPUT extractbb -B cropbox -O sim5-12.png
+INPUT ./sim5-13.png
+INPUT ./sim5-13.png
+INPUT ./sim5-13.png
+INPUT extractbb -B cropbox -O sim5-13.png
+INPUT ./sim5-21.png
+INPUT ./sim5-21.png
+INPUT ./sim5-21.png
+INPUT extractbb -B cropbox -O sim5-21.png
+INPUT ./sim5-22.png
+INPUT ./sim5-22.png
+INPUT ./sim5-22.png
+INPUT extractbb -B cropbox -O sim5-22.png
+INPUT ./sim5-23.png
+INPUT ./sim5-23.png
+INPUT ./sim5-23.png
+INPUT extractbb -B cropbox -O sim5-23.png
+INPUT ./kairozu5-31.png
+INPUT ./kairozu5-31.png
+INPUT ./kairozu5-31.png
+INPUT extractbb -B cropbox -O kairozu5-31.png
+INPUT ./kairozu5-32.png
+INPUT ./kairozu5-32.png
+INPUT ./kairozu5-32.png
+INPUT extractbb -B cropbox -O kairozu5-32.png
+INPUT ./kairozu5-33.png
+INPUT ./kairozu5-33.png
+INPUT ./kairozu5-33.png
+INPUT extractbb -B cropbox -O kairozu5-33.png
+INPUT ./kairozu5-41.png
+INPUT ./kairozu5-41.png
+INPUT ./kairozu5-41.png
+INPUT extractbb -B cropbox -O kairozu5-41.png
+INPUT ./kairozu5-42.png
+INPUT ./kairozu5-42.png
+INPUT ./kairozu5-42.png
+INPUT extractbb -B cropbox -O kairozu5-42.png
+INPUT ./kairozu5-43.png
+INPUT ./kairozu5-43.png
+INPUT ./kairozu5-43.png
+INPUT extractbb -B cropbox -O kairozu5-43.png
+INPUT ./sim5-31.png
+INPUT ./sim5-31.png
+INPUT ./sim5-31.png
+INPUT extractbb -B cropbox -O sim5-31.png
+INPUT ./sim5-32.png
+INPUT ./sim5-32.png
+INPUT ./sim5-32.png
+INPUT extractbb -B cropbox -O sim5-32.png
+INPUT ./sim5-33.png
+INPUT ./sim5-33.png
+INPUT ./sim5-33.png
+INPUT extractbb -B cropbox -O sim5-33.png
+INPUT ./sim5-41.png
+INPUT ./sim5-41.png
+INPUT ./sim5-41.png
+INPUT extractbb -B cropbox -O sim5-41.png
+INPUT ./sim5-42.png
+INPUT ./sim5-42.png
+INPUT ./sim5-42.png
+INPUT extractbb -B cropbox -O sim5-42.png
+INPUT ./sim5-43.png
+INPUT ./sim5-43.png
+INPUT ./sim5-43.png
+INPUT extractbb -B cropbox -O sim5-43.png
+INPUT ./seikikann.png
+INPUT ./seikikann.png
+INPUT ./seikikann.png
+INPUT extractbb -B cropbox -O seikikann.png
+INPUT ./hassinn.png
+INPUT ./hassinn.png
+INPUT ./hassinn.png
+INPUT extractbb -B cropbox -O hassinn.png
+INPUT ./kairozu5-51.png
+INPUT ./kairozu5-51.png
+INPUT ./kairozu5-51.png
+INPUT extractbb -B cropbox -O kairozu5-51.png
+INPUT ./kairozu5-52.png
+INPUT ./kairozu5-52.png
+INPUT ./kairozu5-52.png
+INPUT extractbb -B cropbox -O kairozu5-52.png
+INPUT ./kairozu5-53.png
+INPUT ./kairozu5-53.png
+INPUT ./kairozu5-53.png
+INPUT extractbb -B cropbox -O kairozu5-53.png
+INPUT ./sim5-51.png
+INPUT ./sim5-51.png
+INPUT ./sim5-51.png
+INPUT extractbb -B cropbox -O sim5-51.png
+INPUT ./sim5-52.png
+INPUT ./sim5-52.png
+INPUT ./sim5-52.png
+INPUT extractbb -B cropbox -O sim5-52.png
+INPUT ./sim5-53.png
+INPUT ./sim5-53.png
+INPUT ./sim5-53.png
+INPUT extractbb -B cropbox -O sim5-53.png
+INPUT ./kairozu5-61.png
+INPUT ./kairozu5-61.png
+INPUT ./kairozu5-61.png
+INPUT extractbb -B cropbox -O kairozu5-61.png
+INPUT ./kairozu5-62.png
+INPUT ./kairozu5-62.png
+INPUT ./kairozu5-62.png
+INPUT extractbb -B cropbox -O kairozu5-62.png
+INPUT ./kairozu5-63.png
+INPUT ./kairozu5-63.png
+INPUT ./kairozu5-63.png
+INPUT extractbb -B cropbox -O kairozu5-63.png
+INPUT ./sim5-61.png
+INPUT ./sim5-61.png
+INPUT ./sim5-61.png
+INPUT extractbb -B cropbox -O sim5-61.png
+INPUT ./sim5-62.png
+INPUT ./sim5-62.png
+INPUT ./sim5-62.png
+INPUT extractbb -B cropbox -O sim5-62.png
+INPUT ./sim5-63.png
+INPUT ./sim5-63.png
+INPUT ./sim5-63.png
+INPUT extractbb -B cropbox -O sim5-63.png
+INPUT ./kairozu5-7.png
+INPUT ./kairozu5-7.png
+INPUT ./kairozu5-7.png
+INPUT extractbb -B cropbox -O kairozu5-7.png
+INPUT ./sim5-7.png
+INPUT ./sim5-7.png
+INPUT ./sim5-7.png
+INPUT extractbb -B cropbox -O sim5-7.png
+INPUT 回路シミュレーション4.aux
